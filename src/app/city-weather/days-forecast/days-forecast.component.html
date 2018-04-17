@@ -26,7 +26,7 @@
       <i class="fa fa-calendar-check-o" aria-hidden="true"></i>  
       {{ item.time + "000" | date : "EEEE MMM d y" }} Today
     </div>
-    <div class="date-sign" *ngIf="(item.time + '000'|date : 'HH:mm') =='02:00'">
+    <div class="date-sign" *ngIf="(item.time + '000'|date : 'HH:mm') =='00:00'">
       <i class="fa fa-calendar-plus-o" aria-hidden="true"></i> 
       {{ item.time + "000" | date : "EEEE MMM d y" }}
     </div>
